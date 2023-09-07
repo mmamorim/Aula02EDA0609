@@ -10,6 +10,22 @@ public class Aula01 {
         //int pos = buscaSeq(vetor, "abacateses");
         int pos = buscaBin(vetor, 0, qtde, "samambaia");
         System.out.println(pos);
+
+        String lista[] = lerFrase();
+        for(int i=0; i<lista.length;i++) {
+            if(buscaSeq(vetor, lista[i]) == -1) {
+                System.out.println("palavra escrita errada: "+lista[i]);
+            }
+        }
+    }
+
+    public static String[] lerFrase() {
+        Scanner leitor = new Scanner(System.in);
+        System.out.println("Digite uma frase:");
+        String frase = leitor.nextLine();
+        System.out.println("frase: "+frase);
+        String vetor[] = frase.split(" ");
+        return vetor;
     }
 
     public static String[] lerPalavras() {
