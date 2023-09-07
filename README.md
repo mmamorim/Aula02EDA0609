@@ -2,5 +2,9 @@
 
 ## EDA (Estrutura de dados e algoritmos) - 06/09
 
-Busca sequencial
-Busca binária
+Dicionário de palavras utilizado:
+[Link](https://www.ime.usp.br/~pf/dicios/)
+
+Implementamos:
+* Busca sequencial
+* Busca binária
