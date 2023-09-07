@@ -6,6 +6,9 @@ Dicionário de palavras utilizado:
 [Link](https://www.ime.usp.br/~pf/dicios/)
 
 Implementamos:
+
 * Busca sequencial
-![](https://www.tutorialspoint.com/data_structures_algorithms/images/linear_search.gif)
 * Busca binária
+
+![](https://devopedia.org/images/article/28/2951.1490520804.gif)
+
